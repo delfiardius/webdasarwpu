@@ -1,0 +1,14 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    /* font: justify 16px/30px Georgia, 'Times New Roman', Times, serif; */
+}
