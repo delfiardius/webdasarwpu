@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - Form With Table</title>
+    <style>
+      td {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="0" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Label</th>
+          <th>Form Elements</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="username">Username :</label></td>
+          <td style="text-align: left"><input type="text" id="username" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password :</label></td>
+          <td style="text-align: left">
+            <input type="password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="radio" name="jeniskelamin" id="pria" /><label
+              for="pria"
+              >Pria</label
+            >
+            <input type="radio" name="jeniskelamin" id="wanita" /><label
+              for="wanita"
+              >Wanita</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="checkbox" id="olahraga" /><label for="olahraga"
+              >Olahraga</label
+            >
+            <input type="checkbox" id="coding" />
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="game" /><label for="game">Game</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="combobox">City :</label></td>
+          <td style="text-align: left">
+            <select name="" id="">
+              <option value="">Bandung</option>
+              <option value="">Jakarta</option>
+              <option value="">Batam</option>
+              <option value="">Gunungsitoli</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="opinion">Opinion :</label></td>
+          <td style="text-align: left">
+            <textarea name="opinion" id="opinion">Opinion</textarea>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
