@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kotlin - Bilangan Prima</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Konsep Bilangan Prima</h2>
+    <p>
+      Bilangan prima adalah bilangan bulat positif yang hanya dapat dibagi
+      secara sempurna (tanpa sisa) oleh <strong>1</strong> dan dirinya sendiri.
+      Contoh bilangan prima adalah
+      <strong>2, 3, 5, 7, 11, dst.</strong> Beberapa hal penting tentang
+      bilangan prima:
+      <ul>
+        <li>Bilangan 2 adalah satu-satunya bilangan prima genap, karena semua bilangan genap lainnya dapat dibagi oleh 2</li>
+        <li>Bilangan 1 bukan bilangan prima, karena hanya memiliki satu faktor (1 itu sendiri)</li>
+        <li>Bilangan prima adalah 'Blok Bangunan' dari semua bilangan lainnya, karena setiap bilangan bulat poitif bisa dipresentasikan sebagai hasil perkalian bilangan prima (ini disebut <strong>Faktorisasi Prima</strong></li>
+      </ul>
+    </p>
+    <h2>Implementasi Koding Kotlin</h2>
+    <pre class="code-editor">
+        <code>
+            fun main() {
+                println("===Program Cek Bilangan Prima atau Bukan===")
+                print("Input Angka: ")
+                val input = readLine()?.toIntOrNull()
+                if (input != null) {
+                    if (isPrime(input)) {
+                        println("$input adalah bilangan prima")
+                    } else {
+                        println("$input bukan bilangan prima")
+                    }
+                } else {
+                    println("Input harus berupa bilangan bulat positif")
+                }
+                println("===Program Berakhir===")
+            }
+
+            fun isPrime(bilangan: Int): Boolean {
+                if (bilangan < 2) return false
+                for (i in 2 until bilangan) {
+                    if (bilangan % i == 0) return false
+                }
+                return true
+            }
+        </code>
+    </pre>
+    <h2>Bedah Kode:</h2>
+  </body>
+</html>
