@@ -104,3 +104,6 @@ ul li a {
     background-color: blue;
     color: yellow;
 }
+
+/* :first-of-type -> memilih elemen pertama dari sebuah jenis/tipe tag*/
+/* :last-of-type -> memilih elemen terakhir dari sebuah jenis/tipe tag*/
