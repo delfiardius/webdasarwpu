@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.dua {
+    /* % merupakan satuan relative terhadap parentnya */
+    width: 50%;
+    background-color: red;
+    color: aliceblue;
+}
+
+.tiga {
+    width: 300px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.empat {
+    /* % merupakan satuan relative terhadap parentnya */
+    width: 80%;
+    background-color: red;
+    color: aliceblue;
+}
+
+/* properti overflow memiliki 4 nilai/value: 
+- visible(default), 
+- auto(otomatis menambahkan scroll ketika kontent nya tidak mencukupi lebar/tinggi parentnya. ketika mencukupi scroll akan hilang), 
+- hidden (apabila kontentnya melebihi tinggi/lebar parentnya, konten akan disembunyak dan tidak dapat diakses.), 
+- scroll (akan menambahkan scroll otomatis baik kontentnya melebihi tinggi/lebar parentnya maupun tidak */
+
+.lima {
+    display: inline-block;
+}
+
+.enam-satu {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+
+.enam-dua {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+
+.enam-tiga {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: scroll;
+}
+
+.enam-empat {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: scroll;
+}
+
+.enam-lima {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    overflow: hidden;
+}
