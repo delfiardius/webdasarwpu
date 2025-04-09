@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    color: #734200;
+    border: 1px solid #734200;
+}
+
+.logo_coffee_house {
+    height: 200px;
+    border-radius: 24px;
+    border: 1px solid #734200;
+}
+
+.main p {
+    letter-spacing: 0.5px;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 30px;
+    margin-top: 10px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: lightgreen;
+    border: 1px solid #734200;
+}
