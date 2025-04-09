@@ -13,11 +13,19 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-p {
+.p-pertama {
     text-align: justify;
     line-height: 25px;
     text-indent: 30px;
     color: rgb(48, 48, 48);
+}
+
+.p-kedua {
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
 }
 
 ul,
