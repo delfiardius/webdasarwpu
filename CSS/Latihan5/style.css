@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-pertama {
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 30px;
+    color: rgb(48, 48, 48);
+}
+
+.p-kedua {
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellow;
+    background-color: blue;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.order-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    line-height: 25px;
+}
+
+.home:link {
+    color: orange;
+}
+
+.home:hover {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.home:active {
+    font-style: italic;
+}
+
+.home:visited {
+    color: yellow;
+}
+
+.order-list li:first-child a {
+    color: orange;
+}
+
+.order-list li:last-child a:hover {
+    background-color: green;
+    color: yellow;
+}
+
+/* ol li:nth-child(3n) a untuk kelipatan 3*/
+/* ol li:nth-child(3n+1) a untuk kelipatan 3*/
+/* ol li:nth-child(even) a untuk ganjil*/
+/* ol li:nth-child(odd) a untuk genap*/
+.order-list li:nth-child(3) a {
+    background-color: aqua;
+    color: blue;
+}
+
+.pseudo-class-css li a {
+    text-decoration: none;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.pseudo-class-css li:nth-child(odd) a {
+    background-color: red;
+    color: lightgreen;
+}
+
+.pseudo-class-css li:nth-child(even) a {
+    background-color: blue;
+    color: yellow;
+}
