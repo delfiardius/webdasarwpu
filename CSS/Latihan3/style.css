@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-image: url(sample_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    color: rgb(59, 59, 59);
+    text-align: justify;
+    text-indent: 25px;
+    /* word-spacing: 5px; */
+    /* letter-spacing: 2px; */
+}
+
+span {
+    text-decoration: line-through;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.learn-more,
+.learn-more-2 {
+    text-decoration: none;
+    color: rgb(0, 39, 8);
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(0, 255, 0);
+    border: 1px solid rgb(0, 133, 29);
+}
+
+.learn-more-2 {
+    text-transform: uppercase;
+}
