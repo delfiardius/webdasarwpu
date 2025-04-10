@@ -19,4 +19,17 @@
     width: 50px;
     height: 50px;
     background-color: skyblue;
+    margin:
+        100px
+        /*atas bawah*/
+        auto
+        /*kiri kanan*/
+    ;
 }
+
+/* Catatan: Margin
+-> margin: 100px; // mengubah nilai margin secara keseluruhan sebesar 100px
+-> margin: 100px auto; // nilai pertama untuk margin atas bawah, sedangkan nilai kedua untuk margin kiri kanan
+-> margin: 100px auto 20px; // nilai pertama untuk margin atas, nilai kedua untuk margin kiri kanan, dan nilai ketiga untuk margin bawah
+-> margin: 100px 100px 30px 50px; // nilai pertama untuk atas, kedua untuk kanan, ketiga untuk bawah, dan keempat untuk kiri.
+*/
