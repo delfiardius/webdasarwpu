@@ -140,9 +140,10 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 600px;
     margin: auto;
     background-color: white;
+    overflow: auto;
 }
 
 .header {
@@ -158,6 +159,7 @@ body {
 
 .content {
     padding: 20px;
+    overflow: auto;
 }
 
 
