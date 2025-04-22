@@ -180,7 +180,17 @@ body {
     width: 130px;
     height: 500px;
     background-color: lime;
-    float: left;
+    float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
 }
 
 .footer {
