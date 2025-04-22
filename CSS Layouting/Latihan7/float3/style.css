@@ -173,6 +173,10 @@ body {
     float: right;
 }
 
+.clear {
+    clear: both;
+}
+
 .footer {
     background-color: blue;
     padding: 10px;
