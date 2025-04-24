@@ -1,0 +1,39 @@
+body {
+    height: 2000px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.satu {
+    background-color: tomato;
+}
+
+.dua {
+    background-color: limegreen;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+}
+
+.tiga {
+    background-color: skyblue;
+}
+
+.container {
+    width: 600px;
+    height: 650px;
+    border: 5px solid grey;
+    position: relative;
+}
+
+/* Position
+-> static
+-> relative: top, left, bottom, right
+-> absolute
+-> fixed*/
