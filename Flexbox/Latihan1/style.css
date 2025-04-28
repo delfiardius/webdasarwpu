@@ -62,7 +62,8 @@ align-content
     /* Begitu juga dengan float */
     /* float: left;*/
     background-color: rgb(3, 163, 255);
-    
+    flex: 1;
+
 }
 
 
@@ -74,7 +75,7 @@ align-content
     font-size: 100px;
 } */
 
-.satu {
+/* .satu {
     order: 3;
 }
 
@@ -88,4 +89,8 @@ align-content
 
 .empat {
     order: 1;
+} */
+
+.container div.dua {
+    flex: 3;
 }
