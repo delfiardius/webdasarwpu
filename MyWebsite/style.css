@@ -8,4 +8,14 @@
 
 body {
     background-color: var(--mainColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navigasi {
+    display: flex;
 }
