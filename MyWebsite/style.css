@@ -1,5 +1,5 @@
 :root {
-    --mainColor : #080808;
+    --mainColor: #080808;
     --secondaryColor: #101010;
     --thirdColor: #0C0C0D;
     --accentColor: #CB610E;
@@ -11,11 +11,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Container */
 .container {
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
 }
 
-.navigasi {
-    display: flex;
+/* Navigasi */
+.navigasi ul li {
+    display: inline-block;
+    padding: 20px;
 }
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: var(--onPrimaryColor);
+    font-weight: 700;
+}
+
+.navigasi ul li a.home {
+    color: var(--accentColor);
+}
+
+/* End Navigasi */
