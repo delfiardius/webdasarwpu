@@ -133,9 +133,11 @@ nav ul li a:hover {
         z-index: -1;
         transform: translateX(100%);
         transition: all 1s;
+        opacity: 0;
     }
 
     nav ul.slide {
         transform: translateX(0);
+        opacity: 1;
     }
 }
