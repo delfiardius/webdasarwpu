@@ -1,0 +1,75 @@
+:root {
+    --mainColor: #080808;
+    --secondaryColor: #101010;
+    --thirdColor: #0C0C0D;
+    --accentColor: #CB610E;
+    --onPrimaryColor: #E1DED8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--mainColor);
+    justify-content: space-between;
+}
+
+/* container */
+.container {
+    height: 100vh;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #E1DED8;
+}
+
+.header h1 {
+    color: var(--accentColor);
+    cursor: pointer;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: var(--thirdColor);
+    font-size: 0.9rem;
+}
+
+/* content */
+.content {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    color: var(--onPrimaryColor);
+}
+
+/* aside */
+
+/* nav */
+/* main */
+
+/* footer */
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: var(--onPrimaryColor);
+    align-items: center;
+    justify-content: center;
+}
