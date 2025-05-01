@@ -1,0 +1,63 @@
+:root {
+    --mainColor: #080808;
+    --secondaryColor: #101010;
+    --thirdColor: #0C0C0D;
+    --accentColor: #CB610E;
+    --onPrimaryColor: #E1DED8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: var(--accentColor);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    height: 50px;
+    color: var(--onPrimaryColor);
+    align-items: center;
+}
+
+nav .logo {
+    font-family: "Warnes", cursive;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--onPrimaryColor);
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Responsive Breakpoint */
+/* Ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
+}
