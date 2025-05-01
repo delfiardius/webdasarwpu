@@ -63,6 +63,12 @@ body {
 /* aside */
 
 /* nav */
+.nav a {
+    text-decoration: none;
+    color: var(--onPrimaryColor);
+}
+
+
 /* main */
 
 /* footer */
