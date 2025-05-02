@@ -1,14 +1,55 @@
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100px;
-    font-variant: small-caps;
-    font-style: oblique;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-p {
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.container h3 {
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.container .p2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .p3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify;
-    font-size: 20px;
-    line-height: 30px;
-    /* font: justify 16px/30px Georgia, 'gitTimes New Roman', Times, serif; */
+}
+
+.container .p4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .p5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .p6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .p7 {
+    font-family: cursive;
+}
+
+.container .p8 {
+    font-family: fantasy;
 }
