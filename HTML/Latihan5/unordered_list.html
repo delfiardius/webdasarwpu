@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Unordered List Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+    * compact
+    * type: circle, disc, square
+
+    -->
+    <h3>Bentuk Awal</h3>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+    <h3>Bentuk Dengan Line Height 80% - Pengganti Atribut Compact</h3>
+    <ul class="compact">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+    <h3>Bentuk Type Disc</h3>
+    <ul class="disc">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <h3>Bentuk Type Circle</h3>
+    <ul class="circle">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <h3>Bentuk Type Square</h3>
+    <ul class="square">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <!-- Nesting Unorder List -->
+    <h3>Nesting Unorder List</h3>
+    <ul class="square">
+        <li>item 1</li>
+        <li>item 2
+            <ul class="circle">
+                <li>item 2 subitem 1</li>
+                <li>item 2 subitem 2</li>
+                <li>item 2 subitem 3</li>
+            </ul>
+        </li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+
+    <!-- Order List in Unorder List-->
+     <h3>Order List in Unorder List</h3>
+    <ul class="square">
+        <li>item 1</li>
+        <li>item 2
+            <ol>
+                <li>item 2 subitem 1</li>
+                <li>item 2 subitem 2</li>
+                <li>item 2 subitem 3</li>
+            </ol>
+        </li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+  </body>
+</html>
