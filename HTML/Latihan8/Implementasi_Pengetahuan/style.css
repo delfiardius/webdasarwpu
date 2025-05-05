@@ -51,3 +51,16 @@ body {
     padding: 5px;
     border-radius: 4px;
 }
+
+.content {
+    padding: 10px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: salmon;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
