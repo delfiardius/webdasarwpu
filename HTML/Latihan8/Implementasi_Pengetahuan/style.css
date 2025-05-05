@@ -52,8 +52,32 @@ body {
     border-radius: 4px;
 }
 
+/* content */
 .content {
     padding: 10px;
+}
+
+.content html {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(197, 255, 236);
+}
+
+tr:hover {
+    background-color: #ddd;
 }
 
 /* footer */
