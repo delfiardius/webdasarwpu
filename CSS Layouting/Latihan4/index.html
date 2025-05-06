@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box Sizing - Border Box</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 18px;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        border: 1px solid #ddd;
+      }
+    </style>
   </head>
   <body>
     <div class="satu">
@@ -43,7 +56,37 @@
     </div>
     <div class="shorthand">
       <p>cara menyingkat penulisan properti margin</p>
-      
+      <table>
+        <thead>
+          <tr>
+            <th>properti</th>
+            <th>nilai</th>
+            <th>desc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>dua nilai</td>
+            <td>20px 40px</td>
+            <td>
+              20px: untuk margin top dan bottom, 40px: untuk margin left dan
+              right
+            </td>
+          </tr>
+          <tr>
+            <td>tiga nilai</td>
+            <td>30px 50px 40px</td>
+            <td>
+              30px: margin atas 50px: margin kiri dan kanan 40px: margin bawah
+            </td>
+          </tr>
+          <tr>
+            <td>empat nilai</td>
+            <td>30px 50px 60px 40px</td>
+            <td>30px:atas, 50px:kanan, 60px:bawah, 40px:kiri</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
