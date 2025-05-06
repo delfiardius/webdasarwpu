@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Data</title>
+    <link rel="stylesheet" href="dashboard/style.css" />
+    <link rel="stylesheet" href="styleupdate.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header">
+        <h3>AINE-Study</h3>
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- CONTENT -->
+      <div class="content">
+        <div class="foto">
+          <img src="ic_grain.png" alt="Foto Profile" />
+        </div>
+        <div class="detail">
+          <h3>Update Data</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Label</th>
+                <th>Form Elements</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User ID</td>
+                <td>001</td>
+              </tr>
+              <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" placeholder="Name" /></td>
+              </tr>
+              <tr>
+                <td><label for="course_category">Course Category</label></td>
+                <td>
+                  <select name="category" id="course_category">
+                    <option value="">WEB</option>
+                    <option value="">EXCEL</option>
+                    <option value="">WORD</option>
+                    <option value="">ANDROID</option>
+                    <option value="">CANVA</option>
+                    <option value="">AI</option>
+                    <option value="">PIANO</option>
+                    <option value="">JETPACK COMPOSE</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="entry_course">Entry in Course</label></td>
+                <td><input type="date" /></td>
+              </tr>
+              <tr>
+                <td><label for="end_of_course">End of The Course</label></td>
+                <td><input type="date" /></td>
+              </tr>
+            </tbody>
+          </table>
+          <button>Update</button>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <p>&copy; delfiardius || 2025</p>
+      </div>
+    </div>
+  </body>
+</html>
