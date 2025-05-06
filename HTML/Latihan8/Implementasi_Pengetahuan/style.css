@@ -10,7 +10,7 @@ body {
 
 .container {
     background-color: white;
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -54,10 +54,27 @@ body {
 
 /* content */
 .content {
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
+    overflow-x: auto;
 }
 
-.content html {
+/* caridata */
+.caridata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cari {
+    width: 40%;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* table */
+.content table {
     width: 100%;
     border-collapse: collapse;
     font-size: 18px;
@@ -88,10 +105,7 @@ tr:hover {
 /* aksi */
 .aksi {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 60px;
-    background-color: yellow;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 
