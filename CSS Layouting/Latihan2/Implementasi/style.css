@@ -50,6 +50,23 @@ body {
 }
 
 /* main */
+.main {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main .article_title {
+    margin-bottom: 10px;
+}
+
+.main p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+
+
 /* footer */
 .footer {
     display: flex;
