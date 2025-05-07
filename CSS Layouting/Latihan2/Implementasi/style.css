@@ -57,6 +57,7 @@ body {
 
 .main .artikel {
     width: 300px;
+    height: 600px;
     padding: 10px;
 }
 
@@ -69,18 +70,19 @@ body {
     line-height: 30px;
     font-size: 18px;
     color: rgb(66, 66, 66);
+    text-indent: 30px;
 }
 
 .satu {
-    background-color: red;
+    overflow: scroll;
 }
 
 .dua {
-    background-color: blue;
+    overflow: auto;
 }
 
 .tiga {
-    background-color: green;
+    overflow: hidden;
 }
 
 /* footer */
