@@ -48,3 +48,15 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* main */
+/* footer */
+.footer {
+    display: flex;
+    background-color: salmon;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
