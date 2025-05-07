@@ -51,21 +51,37 @@ body {
 
 /* main */
 .main {
-    padding: 10px;
     box-sizing: border-box;
+    display: flex;
 }
 
-.main .article_title {
+.main .artikel {
+    width: 300px;
+    padding: 10px;
+}
+
+.main .artikel .article_title {
     margin-bottom: 10px;
 }
 
-.main p {
+.main .artikel p {
     text-align: justify;
     line-height: 30px;
     font-size: 18px;
     color: rgb(66, 66, 66);
 }
 
+.satu {
+    background-color: red;
+}
+
+.dua {
+    background-color: blue;
+}
+
+.tiga {
+    background-color: green;
+}
 
 /* footer */
 .footer {
